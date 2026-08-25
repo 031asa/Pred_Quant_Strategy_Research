@@ -1,0 +1,18 @@
+[server]
+address = "127.0.0.1"
+headless = true
+maxUploadSize = 1024
+enableStaticServing = true
+
+[theme]
+font = "Pred Noto Sans CJK SC, sans-serif"
+headingFont = "Pred Noto Sans CJK SC, sans-serif"
+
+[[theme.fontFaces]]
+family = "Pred Noto Sans CJK SC"
+url = "app/static/fonts/NotoSansCJKsc-Regular.otf"
+weight = "400"
+style = "normal"
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,37 @@
+{
+  "source_path": "data/pred_eval.parquet",
+  "time_cutoff": "14:30",
+  "segment_rule": "Datetime < 14:30 is 14:30以前; equality belongs to 14:30及以后.",
+  "cold_start_minimum_trading_days": 20,
+  "cold_start_effective_trading_days": 21,
+  "cold_start_calendar_month": "2024-01",
+  "total_trading_days": 600,
+  "test_fraction": 0.1,
+  "test_trading_days": 60,
+  "test_start_date": "2026-04-01",
+  "test_end_date": "2026-06-30",
+  "short_rate_target_per_segment": 0.5,
+  "short_rate_tolerance": 0.01,
+  "causal_rule": "Date t uses only the same segment's daily medians from dates strictly earlier than t.",
+  "tag_used_for_selection": false,
+  "baseline_definition": "Per-segment expanding median of historical daily score medians.",
+  "transform": "adjusted_score = score - ((segment_recent_center + segment_balance_offset) - segment_slow_baseline)",
+  "segments": {
+    "14:30以前": {
+      "selected_half_life_trading_days": 1,
+      "selected_alpha": 0.5,
+      "selected_development_balance_offset": -0.0004985541892309486,
+      "selected_development_daily_offset_abs_change_p95": 0.026938396271267574,
+      "selected_development_daily_offset_abs_change_max": 0.048949324652413806,
+      "selection_note": "满足本时段开发段做空占比49%至51%后，优先最小化月度绝对面积，月度斜率作为次级排序。"
+    },
+    "14:30及以后": {
+      "selected_half_life_trading_days": 1,
+      "selected_alpha": 0.5,
+      "selected_development_balance_offset": 0.0013893335192660117,
+      "selected_development_daily_offset_abs_change_p95": 0.06314429770189114,
+      "selected_development_daily_offset_abs_change_max": 0.10847216348468114,
+      "selection_note": "满足本时段开发段做空占比49%至51%后，优先最小化月度绝对面积，月度斜率作为次级排序。"
+    }
+  }
+}
