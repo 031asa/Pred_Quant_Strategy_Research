@@ -1,0 +1,19 @@
+name: pred-quant-research
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - numpy=2.0.2
+  - matplotlib=3.9.4
+  - polars=1.36.1
+  - pandas
+  - ipykernel
+  - streamlit>=1.61,<2
+  - plotly>=6,<7
+  - pyarrow
+  - openpyxl
+  - xlsxwriter
+  - scipy
+  - scikit-learn

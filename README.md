@@ -1,5 +1,27 @@
 # Pred量化策略研究：最终工作汇总
 
+## 离职交接与完整备份（2026-09-28）
+
+从 [交接说明](docs/HANDOVER.md) 开始阅读；[仓库差异审计](docs/REPOSITORY_AUDIT.md) 记录了本地版本与 Gitea 的对照。[来源清单](docs/source_manifest.json) 可追溯新增材料，[文件校验表](docs/checksums.sha256) 用于下载后核验。
+
+原始 `data/pred_eval.parquet` 现已随本私有 Gitea 仓库交付。早期99份研究材料位于 `archive/legacy_research/`，较早中文项目快照位于 `archive/chinese_summary_snapshot/`，其 Git 历史另存于 `archive/chinese_summary_history.bundle`。根目录源码仍是当前可运行版本，历史结果的阈值、胜率分母和单复利定义可能不同，详见交接说明。
+
+推荐在 WSL 2 / Linux 的项目目录中使用独立 Conda 环境：
+
+```bash
+conda env create -f environment.yml
+conda activate pred-quant-research
+python scripts/verify_handover.py
+python -m unittest discover -s tests -v
+python scripts/analyze_segmented_score_drift.py
+python scripts/export_zero_centered_pred.py
+python scripts/analyze_adjusted_pred_returns.py
+python -m streamlit run streamlit_app.py
+```
+
+`environment.yml` 是新增的可移植环境说明；旧 `requirements.txt` 保留兼容。实际验收环境与复现记录见 `result/verification/`。执行三步脚本会重写对应生成结果；若需保留交付原件，可执行 `python scripts/reproduce_handover.py`，它在临时目录重新生成并进行逐值核对。归档含研究数据，仅授权上传到当前私有 Gitea；若使用其他远程，需另行确认范围。
+
+
 本项目以`data/pred_eval.parquet`为原始输入，汇总此前的阈值、分组收益、14:30分时、Tag周期和Score漂移研究，并交付当前采用的“14:30前后独立漂移修正 + 零中心Pred”流程。
 
 ## 项目结构
@@ -21,7 +43,7 @@ Pred_Quant_Strategy_Research/
 └── requirements.txt
 ```
 
-项目不再保存或生成CSV、Excel和中间状态文件；每日因果状态均由源码在内存中重建。
+当前三步主流程不生成CSV、Excel和中间状态文件；每日因果状态均由源码在内存中重建。历史CSV、Excel与中间诊断文件另外保存在 `archive/`，供研究过程复盘。
 
 ## 当前数据和方向口径
 
@@ -52,7 +74,7 @@ Pred_Quant_Strategy_Research/
 
 ## 历史工作摘要
 
-此前已完成固定0.5阈值、ROC/AUC、10/20/50等分、14:30分界、累计收益、Pred与Tag漂移、Tag重叠周期、Plan B滚动中位数偏置修正、分时滚动分位数阈值以及旧总体Score漂移实验。历史数值和判断保留在`result/historical_notes/`与`result/reports/`的README、PDF、Word和交接文档中；旧Excel、CSV、诊断JSON、旧图和旧源码已从精简交付中移除。
+此前已完成固定0.5阈值、ROC/AUC、10/20/50等分、14:30分界、累计收益、Pred与Tag漂移、Tag重叠周期、Plan B滚动中位数偏置修正、分时滚动分位数阈值以及旧总体Score漂移实验。历史数值和判断保留在`result/historical_notes/`与`result/reports/`；此前从精简交付移除的旧Excel、CSV、诊断JSON、旧图和旧源码，本次已补入 `archive/legacy_research/`，版本关系见 `docs/HANDOVER.md`。
 
 主要历史判断：
 
@@ -65,9 +87,9 @@ Pred_Quant_Strategy_Research/
 ## 复现顺序
 
 ```powershell
-python 'scripts\analyze_segmented_score_drift.py'
-python 'scripts\export_zero_centered_pred.py'
-python 'scripts\analyze_adjusted_pred_returns.py'
+python scripts/analyze_segmented_score_drift.py
+python scripts/export_zero_centered_pred.py
+python scripts/analyze_adjusted_pred_returns.py
 python -m unittest discover -s tests -v
 ```
 

@@ -1,0 +1,893 @@
+{
+  "baseline_commit": "0425b8e45a4e14973e2ba37d893a26b0767a0b72",
+  "assets": [
+    {
+      "path": "data/pred_eval.parquet",
+      "source": "Pred_Quant_Strategy_Research/data/pred_eval.parquet; identical to Downloads/pred_eval.parquet",
+      "bytes": 23638240,
+      "sha256": "be9297c4e60ac6eefe73bcbfe2cf84f5d3ba4cc3912bda16e67ae7dba61c0305"
+    },
+    {
+      "path": "archive/legacy_research/14点30以前独立样本_10等分_累计收益率曲线.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/14点30以前独立样本_10等分_累计收益率曲线.png",
+      "bytes": 1035683,
+      "sha256": "0499787eadeebc45497d92921dfc9f766c7cf79ae431a21d06137d9d23124ddf"
+    },
+    {
+      "path": "archive/legacy_research/14点30分段_Pred修正方案分析.docx",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/14点30分段_Pred修正方案分析.docx",
+      "bytes": 43074,
+      "sha256": "50da0b902483700af88d295ef2a0b4f17e3aaafbaea2993d85bb139c153783eb"
+    },
+    {
+      "path": "archive/legacy_research/14点30及以后独立样本_10等分_累计收益率曲线.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/14点30及以后独立样本_10等分_累计收益率曲线.png",
+      "bytes": 928135,
+      "sha256": "8fb3bd153296e8623907f568fb2f8c5b8cdbdc3f1d4e60a89e02f4768f259324"
+    },
+    {
+      "path": "archive/legacy_research/PlanB_多空胜率与样本占比.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB_多空胜率与样本占比.png",
+      "bytes": 315329,
+      "sha256": "3d77f937662e067c0e49f57947dccd2a6da3934c1e05831f885d5cbb0056f11c"
+    },
+    {
+      "path": "archive/legacy_research/PlanB_方向转换效果.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB_方向转换效果.png",
+      "bytes": 216051,
+      "sha256": "b0581d6970a7b570847ee65c8b2fa7ae55e79b1d31d7da4fe60955b9f442d415"
+    },
+    {
+      "path": "archive/legacy_research/PlanB单向修正_多空胜率.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB单向修正_多空胜率.csv",
+      "bytes": 1685,
+      "sha256": "cfb36cc8c50dfd6793d7cac82a5da5fd818448bf17345715ef26495223a8fc3d"
+    },
+    {
+      "path": "archive/legacy_research/PlanB单向修正_多转空样本.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB单向修正_多转空样本.csv",
+      "bytes": 925,
+      "sha256": "0f1b5553cc4cf46e5f49ce3047eb1d08a0fec0b90f1806dbda9406b2f7a721c5"
+    },
+    {
+      "path": "archive/legacy_research/PlanB单向修正_滚动中心摘要.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB单向修正_滚动中心摘要.csv",
+      "bytes": 245,
+      "sha256": "539203067d4076f6aa1d7e0dcf3fbb28a9062aa6cfee75547b07eb566e68b29b"
+    },
+    {
+      "path": "archive/legacy_research/PlanB单向修正_胜率复核.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB单向修正_胜率复核.py",
+      "bytes": 5626,
+      "sha256": "f50c826796e14b16f90dab716d3ba3089292719191bf996d1ef364e79f62b932"
+    },
+    {
+      "path": "archive/legacy_research/PlanB胜率与Tag周期诊断.xlsx",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB胜率与Tag周期诊断.xlsx",
+      "bytes": 814553,
+      "sha256": "607ba193c712d72ae75b88424e684e2b3a3c43a19c63d77005c6bcf970e909ab"
+    },
+    {
+      "path": "archive/legacy_research/PlanB胜率与Tag周期诊断_Jupyter源码.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB胜率与Tag周期诊断_Jupyter源码.py",
+      "bytes": 33181,
+      "sha256": "2741f922f29d17d322930f07375130a15d0ea5371e17baee82c282f1b87bad79"
+    },
+    {
+      "path": "archive/legacy_research/PlanB胜率与Tag周期诊断_中间数据.json",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB胜率与Tag周期诊断_中间数据.json",
+      "bytes": 6699199,
+      "sha256": "8f78670945d73bdbb5b565a0d9f6d913a501eb8439ccaf0fc4e1701052fdc86b"
+    },
+    {
+      "path": "archive/legacy_research/PlanB胜率与Tag周期诊断_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/PlanB胜率与Tag周期诊断_交付包.zip",
+      "bytes": 2798138,
+      "sha256": "efd5d2c11f3c0f4d3fe2211c793727544da9fe6e01590916f98b06e679fbde6a"
+    },
+    {
+      "path": "archive/legacy_research/README_PlanB胜率与Tag周期诊断.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_PlanB胜率与Tag周期诊断.md",
+      "bytes": 3810,
+      "sha256": "b3242990bc2ed238627a6c7dc9a211e0237a846623f7086d1158c8e79fda5e20"
+    },
+    {
+      "path": "archive/legacy_research/README_pred平滑与多头偏置修正方案.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_pred平滑与多头偏置修正方案.md",
+      "bytes": 3709,
+      "sha256": "de3c76ea713e71e1ef02bbcaa01040eb4c49486aeb7b2dd5d0aa28c37c8d2897"
+    },
+    {
+      "path": "archive/legacy_research/README_中位数阈值_20与50等分.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_中位数阈值_20与50等分.md",
+      "bytes": 2053,
+      "sha256": "5dadd3dffd96bd23db3b6f115f274f91c61c624ef406298b37468de5595ce6a3"
+    },
+    {
+      "path": "archive/legacy_research/README_全体样本10等分累计收益曲线.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_全体样本10等分累计收益曲线.md",
+      "bytes": 1608,
+      "sha256": "ba8c7f07b7ba698b76cf9487ea65b32ea4c2af01a03e97c6087632d998c48d00"
+    },
+    {
+      "path": "archive/legacy_research/README_八类分组指标图.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_八类分组指标图.md",
+      "bytes": 1197,
+      "sha256": "31f35c3849ec7cd34c121cd7c1e2b1ef216c08d576696c2c1c38b8a16203eefb"
+    },
+    {
+      "path": "archive/legacy_research/README_总体Score时序漂移_加减修正.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_总体Score时序漂移_加减修正.md",
+      "bytes": 15207,
+      "sha256": "1ef621316f294324acc588cde789b474733a2ddcd5773e24e2fce739a4e0c76f"
+    },
+    {
+      "path": "archive/legacy_research/README_按分布十等分.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_按分布十等分.md",
+      "bytes": 1517,
+      "sha256": "6cf9f6c6f5de7e66870c01b6de483dd497b9916f1667f8fe0502e3fc281cb1e8"
+    },
+    {
+      "path": "archive/legacy_research/README_阈值与区间分析.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_阈值与区间分析.md",
+      "bytes": 3609,
+      "sha256": "1b20377194d7db066af60d5e61a7bd715d269159f0e643e6d5b778faeb1db407"
+    },
+    {
+      "path": "archive/legacy_research/README_预测值与Tag时间漂移分析.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/README_预测值与Tag时间漂移分析.md",
+      "bytes": 9064,
+      "sha256": "cd6bfe28c6419788c3a91db438aac994be557cad98f7b845d63d313d391437d0"
+    },
+    {
+      "path": "archive/legacy_research/Tag周期诊断_典型日曲线.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/Tag周期诊断_典型日曲线.png",
+      "bytes": 1035190,
+      "sha256": "079c4e7cd9af16daeeb505afc62dd15837ab42bdfe2ae6b1277a044e7e688e4e"
+    },
+    {
+      "path": "archive/legacy_research/Tag周期诊断_滞后相关与日内结构.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/Tag周期诊断_滞后相关与日内结构.png",
+      "bytes": 327094,
+      "sha256": "f449bf85a01085c1e14951bb532747df325973df334e0058c6ea1f85cc603421"
+    },
+    {
+      "path": "archive/legacy_research/build-median-20-50-report.mjs",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/build-median-20-50-report.mjs",
+      "bytes": 17656,
+      "sha256": "6cec02204a6da60d0694e8828a66a9cd3125a4403bc45201ea0adfc7b5c0e15e"
+    },
+    {
+      "path": "archive/legacy_research/build-quantile-decile-report.mjs",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/build-quantile-decile-report.mjs",
+      "bytes": 22899,
+      "sha256": "6cd19b84b939746e273b14335378684e176e44ffd58cd44946ca008ceb7df5f2"
+    },
+    {
+      "path": "archive/legacy_research/build-segmented-accuracy-report.mjs",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/build-segmented-accuracy-report.mjs",
+      "bytes": 43835,
+      "sha256": "9423320bf30deff401de726115cba1c93d959666a216c8ce47722dcf90ac9051"
+    },
+    {
+      "path": "archive/legacy_research/build-threshold-report.mjs",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/build-threshold-report.mjs",
+      "bytes": 12829,
+      "sha256": "3aadd67d1ae3391fa63a9333a38b1f0366d838b250d90fc3a032bbe7f7b0180e"
+    },
+    {
+      "path": "archive/legacy_research/build_drawdown_pdf.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/build_drawdown_pdf.py",
+      "bytes": 30267,
+      "sha256": "30cc799f3883ff0f5b282d6ddcde3102ef0f30f61cc14b3c3f761f2958b263f8"
+    },
+    {
+      "path": "archive/legacy_research/build_intraday_pdf.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/build_intraday_pdf.py",
+      "bytes": 15738,
+      "sha256": "5807b3e823663c745c44142250905edf03edd9658f9a0ead100d638d2e9faee2"
+    },
+    {
+      "path": "archive/legacy_research/build_pred_correction_method_v3.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/build_pred_correction_method_v3.py",
+      "bytes": 9168,
+      "sha256": "25f3cb247efa6d8cff050686488291b8d0b7d2972b98849e95531a037b27eab4"
+    },
+    {
+      "path": "archive/legacy_research/build_pred_segment_brief.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/build_pred_segment_brief.py",
+      "bytes": 19147,
+      "sha256": "75dd1e062fde3246e79b74f3996b2060703af7fa1978432309330fca23ce4817"
+    },
+    {
+      "path": "archive/legacy_research/pdf/关键回撤日分钟级归因报告.pdf",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/pdf/关键回撤日分钟级归因报告.pdf",
+      "bytes": 139282,
+      "sha256": "1d9c5c7b96e1f62c33c01c85a96113a22a0b050571d86b9f9871204699db04b7"
+    },
+    {
+      "path": "archive/legacy_research/pdf/固定阈值累计收益与回撤归因报告.pdf",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/pdf/固定阈值累计收益与回撤归因报告.pdf",
+      "bytes": 160644,
+      "sha256": "24e0db5239f9299910addb9efcd75d8b347a57f6671ce2bc07399dc9bf6924de"
+    },
+    {
+      "path": "archive/legacy_research/workbook_build/build-planb-tag-diagnostic.mjs",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/workbook_build/build-planb-tag-diagnostic.mjs",
+      "bytes": 24255,
+      "sha256": "a6b86644be28bc0c78331b1b6ba568f3a8ff7c3a4d4b270f52920c88ae0a103b"
+    },
+    {
+      "path": "archive/legacy_research/中位数阈值_20与50等分_Jupyter源码.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/中位数阈值_20与50等分_Jupyter源码.py",
+      "bytes": 11942,
+      "sha256": "643a42ae163fd4d50113f730849b526dcae107038191d09045ebeb7efff4b1fe"
+    },
+    {
+      "path": "archive/legacy_research/中位数阈值_20与50等分_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/中位数阈值_20与50等分_交付包.zip",
+      "bytes": 38992,
+      "sha256": "128369c94656bcd8d00dc0d14fda152b721e2f07fd0f5eb42b4edecc66fc58bb"
+    },
+    {
+      "path": "archive/legacy_research/中位数阈值_20与50等分_参数.json",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/中位数阈值_20与50等分_参数.json",
+      "bytes": 299,
+      "sha256": "3dda3f004db431e1f4ab310c3fe5125b101e9531e44cf07bc0d7929e1a9a09e3"
+    },
+    {
+      "path": "archive/legacy_research/中位数阈值_20与50等分分析.xlsx",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/中位数阈值_20与50等分分析.xlsx",
+      "bytes": 35024,
+      "sha256": "5a2cea3eb0770b84a2db0c0ae987680b5a652305349ab5186ee9febc73ff2b0a"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_10等分_14点30以前_累计收益率曲线.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_10等分_14点30以前_累计收益率曲线.png",
+      "bytes": 1060170,
+      "sha256": "0859c6f8adceec7c815a2d22e8020fd9f1079fe950c6f5108e965dceba744a4b"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_10等分_14点30及以后_累计收益率曲线.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_10等分_14点30及以后_累计收益率曲线.png",
+      "bytes": 856743,
+      "sha256": "dfde10458156561a828a4e2523afe0349365abeaad609ef1b3816ca2c0b81d85"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_10等分_分时累计收益曲线_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_10等分_分时累计收益曲线_交付包.zip",
+      "bytes": 1818063,
+      "sha256": "6fd67165163ba3bc46645b4ba087197da3fd74683d03e27f5df378b996df64c0"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_10等分_累计收益曲线_Jupyter源码.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_10等分_累计收益曲线_Jupyter源码.py",
+      "bytes": 12258,
+      "sha256": "d2220befe4399b1de13383d36f636f04db3a7b051cba1c1db7a00f7fed0d4792"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_10等分_累计收益曲线_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_10等分_累计收益曲线_交付包.zip",
+      "bytes": 806722,
+      "sha256": "ac53576d7f1755466830b23287bdc8246032e5b2ed4a22bbeee2092df73601ec"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_10等分_累计收益率曲线.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_10等分_累计收益率曲线.png",
+      "bytes": 843368,
+      "sha256": "abc8ca01fb5eb9efcc7b56fcdbeed4f5490ddcefe6be9459393df02d41b94296"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_20等分_14点30以前_交互分析样例.html",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_20等分_14点30以前_交互分析样例.html",
+      "bytes": 42424,
+      "sha256": "38c80d8aedc491001d3df4c59495cdf9827b1725dd0b223e93c939a2168d7e47"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_20等分_14点30以前_交互分析样例_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_20等分_14点30以前_交互分析样例_交付包.zip",
+      "bytes": 10686,
+      "sha256": "3394e2476bd90a97d2e71643994272bc48076b07fa141804e28075a16a7a10e2"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_20等分_14点30以前_静态图样例.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_20等分_14点30以前_静态图样例.png",
+      "bytes": 690090,
+      "sha256": "c0bfb591f2c04608b965226f760411c10eade74f4920f2d65764147752b2b848"
+    },
+    {
+      "path": "archive/legacy_research/全体样本_20等分_14点30以前_静态图样例_Jupyter源码.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全体样本_20等分_14点30以前_静态图样例_Jupyter源码.py",
+      "bytes": 7395,
+      "sha256": "8c11a0958a974d2550227c8a26a6d49830db55e2d12414c3b4bb1522539bf332"
+    },
+    {
+      "path": "archive/legacy_research/全局阈值_ROC_AUC分析.xlsx",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/全局阈值_ROC_AUC分析.xlsx",
+      "bytes": 28739,
+      "sha256": "b8c8cf945dd92b4864902847dc4e4cc63bbb5d79c12a146050202d82dc104310"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图/01_全体样本20等分_14点30以前.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图/01_全体样本20等分_14点30以前.png",
+      "bytes": 703331,
+      "sha256": "5b250748c0d0ec3a22eea96a3a2ee84c9dae89ba09c1d7142c588b1567159605"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图/02_全体样本20等分_14点30及以后.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图/02_全体样本20等分_14点30及以后.png",
+      "bytes": 708177,
+      "sha256": "919cb0f5cc1231b862ecda518898e4f4ac86c05c97c41710d719ef392586f1d7"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图/03_全体样本50等分_14点30以前.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图/03_全体样本50等分_14点30以前.png",
+      "bytes": 822096,
+      "sha256": "350e9afd05fb747a45c0f81158541f831614fcd54118064cb9f916f41eef6f30"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图/04_全体样本50等分_14点30及以后.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图/04_全体样本50等分_14点30及以后.png",
+      "bytes": 834916,
+      "sha256": "11aae07e86cc62afc1419249083f6536d11377bfdf6c6e565438c823c3a56d03"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图/05_14点30以前独立样本_20等分.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图/05_14点30以前独立样本_20等分.png",
+      "bytes": 678657,
+      "sha256": "07ac7618e6842abb7811535b3d04bf453e77d09b2fb82f22900086368c40be9f"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图/06_14点30以前独立样本_50等分.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图/06_14点30以前独立样本_50等分.png",
+      "bytes": 801099,
+      "sha256": "cbcc6addddb333a1b0a01e0a91ccef2b839f3b66382af149967744b0414a169a"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图/07_14点30及以后独立样本_20等分.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图/07_14点30及以后独立样本_20等分.png",
+      "bytes": 666417,
+      "sha256": "d7c8e4fdb96d4d5875306a7892fec67ef5e3c03b49b59fd5b64759d0dc9b4cbb"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图/08_14点30及以后独立样本_50等分.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图/08_14点30及以后独立样本_50等分.png",
+      "bytes": 780587,
+      "sha256": "852fd9d668b437e746b1884c6827e73d65ae11a154b5569407e8b32500970117"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图_Jupyter交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图_Jupyter交付包.zip",
+      "bytes": 5260429,
+      "sha256": "788f5c0b27b7ee77e3e729c1c7786cc648ea1bddadffb51651e7d09ebdaf9995"
+    },
+    {
+      "path": "archive/legacy_research/八类分组指标图_Jupyter源码.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/八类分组指标图_Jupyter源码.py",
+      "bytes": 11600,
+      "sha256": "d3c26c8041b0bf0ef00cd9463089b06c5b64ddfbe63346b25d4a4ccbb6f048a0"
+    },
+    {
+      "path": "archive/legacy_research/分时分位数阈值_方向变化样本.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/分时分位数阈值_方向变化样本.csv",
+      "bytes": 1282,
+      "sha256": "bd2bc09d7fca45abf6baca9a9872000ce1b0c29aac8890380b8b93627e83649f"
+    },
+    {
+      "path": "archive/legacy_research/分时分位数阈值_方案对比.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/分时分位数阈值_方案对比.csv",
+      "bytes": 1347,
+      "sha256": "e0ee09ce1c546e09da19b93ee47e3baa29f69615fb3cfafeb3bc4be260241b71"
+    },
+    {
+      "path": "archive/legacy_research/分时分位数阈值_每日阈值.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/分时分位数阈值_每日阈值.csv",
+      "bytes": 73109,
+      "sha256": "f6a591ae530b052de2ec991fa9a18794d22d619c3b82e103b956645941e16f2c"
+    },
+    {
+      "path": "archive/legacy_research/分时分位数阈值_胜率复核.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/分时分位数阈值_胜率复核.py",
+      "bytes": 6883,
+      "sha256": "2c47d09d263160646deb4a8732b627963552435cf41628536393b959bc61e75b"
+    },
+    {
+      "path": "archive/legacy_research/分时分位数阈值_阈值摘要.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/分时分位数阈值_阈值摘要.csv",
+      "bytes": 441,
+      "sha256": "11d442e458f1792d73b97a9335255f349a0e3f96f07998349644d90a28ab0d0e"
+    },
+    {
+      "path": "archive/legacy_research/分时独立样本_10等分_累计收益曲线_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/分时独立样本_10等分_累计收益曲线_交付包.zip",
+      "bytes": 1892382,
+      "sha256": "021cee6b48bb8947baef3876e942a2db78b78334e1c226255db1d2312c7542e3"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_10等分累计收益.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_10等分累计收益.csv",
+      "bytes": 976033,
+      "sha256": "cabe323ade291add578751e4fcdd2a89224c56d03673c0b027c2e7a8fecae760"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_20等分分组分布.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_20等分分组分布.csv",
+      "bytes": 33620,
+      "sha256": "5758d2eaa409252d893172f77f7dc9e519f92688be20c0c1dfeb99f41744c9fe"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_20等分指标.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_20等分指标.csv",
+      "bytes": 5397,
+      "sha256": "2695772472c1324124f19751b5eb498d76ce059811f09db1081508952d22c2ee"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_修正前_10等分累计收益.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_修正前_10等分累计收益.png",
+      "bytes": 498582,
+      "sha256": "49399da4be35d83ec6ae8b7f6fe86762cc15e3c5bf4029a270118f2cb24d162b"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_修正前_20等分Tag分布.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_修正前_20等分Tag分布.png",
+      "bytes": 155103,
+      "sha256": "c8a7d7b4fb78db1981929003bd5890d10fc3331fcfa9f93114099e952cc79856"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_修正前_20等分三指标.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_修正前_20等分三指标.png",
+      "bytes": 196467,
+      "sha256": "1a56784b4cbab4ecd473d43fa8a8141019f4774c05152429f929174d48e4167b"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_修正前_20等分策略收益分布.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_修正前_20等分策略收益分布.png",
+      "bytes": 160098,
+      "sha256": "19eb4a71d13afc69831e2558bb39ea13b63d4d104a4a6cf1f0c13ac384d5889d"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_修正后_10等分累计收益.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_修正后_10等分累计收益.png",
+      "bytes": 473838,
+      "sha256": "b79cadc1bef3e22a754854eb44814c98a0e29c3de92f5f4fee51c033e5369e57"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_修正后_20等分Tag分布.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_修正后_20等分Tag分布.png",
+      "bytes": 158516,
+      "sha256": "acb464aaf04535701f79f202f4b64fdc20c10cd82adb8efd24d21d687a24fd1b"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_修正后_20等分三指标.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_修正后_20等分三指标.png",
+      "bytes": 203403,
+      "sha256": "08b957d452f3cd2f74aa4035104ebb4e2d5d32d8453252235c18b731d2a73c96"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_修正后_20等分策略收益分布.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_修正后_20等分策略收益分布.png",
+      "bytes": 163260,
+      "sha256": "d2de86a180fa4596abf4d46d8b77a4d89caca21346074843669fd15d2f607058"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_加减修正.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_加减修正.py",
+      "bytes": 36537,
+      "sha256": "fdc6d1d3d9ed405eaaa9250f198d70517b5ab3c0a8e42c73f51bca86b882e41f"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_参数搜索.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_参数搜索.csv",
+      "bytes": 2005,
+      "sha256": "69835fc5f0edfeb04cd828970017a632d30b990c23c55f74c89f4d5c45a5e99e"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_方案对比.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_方案对比.csv",
+      "bytes": 1861,
+      "sha256": "0c78c92add098209635d2aa1762d26ef21eeb97bcb5d3ddf34eefd30b42c3944"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_月度分位数.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_月度分位数.csv",
+      "bytes": 11141,
+      "sha256": "455e494f64c01863c85856e9cb4bcc693551b0900fd7659a306adb1617d416eb"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_月度分位数对比.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_月度分位数对比.png",
+      "bytes": 540017,
+      "sha256": "67986cb96e8af09afb68cffdb1dc7364b19bb68cc8e58ede1508a6e35f47e93e"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_每日状态.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_每日状态.csv",
+      "bytes": 96863,
+      "sha256": "1cf8387118a927cc618ff7c047234b856278d29fa4130c0ed329b54442cc09e2"
+    },
+    {
+      "path": "archive/legacy_research/总体Score时序漂移_选定参数.json",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/总体Score时序漂移_选定参数.json",
+      "bytes": 1146,
+      "sha256": "40e8397a48853eda63f1aa6b0062e1b159c72ddbe3ea796613870039441dab2f"
+    },
+    {
+      "path": "archive/legacy_research/按分布十等分_Jupyter源码.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/按分布十等分_Jupyter源码.py",
+      "bytes": 28327,
+      "sha256": "cc8d4dfd4b46373d5060a9f891842db7e02e2b7010ddad85d571b18f8480572e"
+    },
+    {
+      "path": "archive/legacy_research/按分布十等分_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/按分布十等分_交付包.zip",
+      "bytes": 16965,
+      "sha256": "82ee96fbfa189e27eeac2a65d079dfc30d7bee070e8bd594b5868ae3e128e156"
+    },
+    {
+      "path": "archive/legacy_research/按分布十等分_参数.json",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/按分布十等分_参数.json",
+      "bytes": 378,
+      "sha256": "c17351dc82529a5ac36ba58ac6ae4ec7b68601a19eec528609675e69ed10f920"
+    },
+    {
+      "path": "archive/legacy_research/按分布十等分_阈值分析.xlsx",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/按分布十等分_阈值分析.xlsx",
+      "bytes": 7941,
+      "sha256": "df014a92e3a1de07b2938d311cc0e46bad7ae27445d68f9efe767e620dafc066"
+    },
+    {
+      "path": "archive/legacy_research/按合约_按月份_阈值精确度分析.xlsx",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/按合约_按月份_阈值精确度分析.xlsx",
+      "bytes": 193470,
+      "sha256": "f1bfc0d17c159c300d683285c7b37f140a84739268248eac4511779b05229f6f"
+    },
+    {
+      "path": "archive/legacy_research/阈值与区间分析_Jupyter源码.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/阈值与区间分析_Jupyter源码.py",
+      "bytes": 20397,
+      "sha256": "4a35c1acf8fbe927abc4befdc8b40d06f89ac38321560dd2125aeb94f8616847"
+    },
+    {
+      "path": "archive/legacy_research/阈值与区间分析_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/阈值与区间分析_交付包.zip",
+      "bytes": 206458,
+      "sha256": "e7eda9ceddd7eaed2aaf426b04935dcec7fae6f62d51b3f2f9c831e00c30b570"
+    },
+    {
+      "path": "archive/legacy_research/阈值分析参数.json",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/阈值分析参数.json",
+      "bytes": 355,
+      "sha256": "560ef4b43868d6107a0055c8b40080d179cde75157eae87fe3b63ed563386526"
+    },
+    {
+      "path": "archive/legacy_research/项目交接_关键信息与文件路径.md",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/项目交接_关键信息与文件路径.md",
+      "bytes": 16902,
+      "sha256": "ce98ea53db9bff6002f102d710c1790cb22db618c87772a067eef1c2a237429d"
+    },
+    {
+      "path": "archive/legacy_research/预测值与Tag时间漂移_14点30以前.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/预测值与Tag时间漂移_14点30以前.png",
+      "bytes": 741040,
+      "sha256": "cdb688fe71f2662d55a621a9ffd96cb1aba5c527031142db1c51e4488f0bc7c2"
+    },
+    {
+      "path": "archive/legacy_research/预测值与Tag时间漂移_14点30及以后.png",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/预测值与Tag时间漂移_14点30及以后.png",
+      "bytes": 748262,
+      "sha256": "c4a3b21059244f7097bd85c7eb3e015fe1405804c68d3d6ad330a6c3ef30d254"
+    },
+    {
+      "path": "archive/legacy_research/预测值与Tag时间漂移分析.pdf",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/预测值与Tag时间漂移分析.pdf",
+      "bytes": 193010,
+      "sha256": "40ede739e0405dc6f14c686e716a7b8f7bf4ebfd9241aa0388698e5bb0c8c3f9"
+    },
+    {
+      "path": "archive/legacy_research/预测值与Tag时间漂移分析_Jupyter源码.py",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/预测值与Tag时间漂移分析_Jupyter源码.py",
+      "bytes": 23691,
+      "sha256": "ec5fa7b287b8b9f636e20f68d02451814256a521448a33585fd67ce45a299d25"
+    },
+    {
+      "path": "archive/legacy_research/预测值与Tag时间漂移分析_交付包.zip",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/预测值与Tag时间漂移分析_交付包.zip",
+      "bytes": 1559833,
+      "sha256": "1e92fd642fddfd1a97f0fca58057fb6781c26f75dbf6636e708593d79e31ca10"
+    },
+    {
+      "path": "archive/legacy_research/预测值与Tag月度漂移统计.csv",
+      "source": "outputs/019fb20f-2fd0-7341-9e50-cb40298a48ce/预测值与Tag月度漂移统计.csv",
+      "bytes": 20207,
+      "sha256": "0def4cb77f1e36a008cdaaaedd2de1555ae9a8d5cb305cd63235bc011f277c73"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/.gitignore",
+      "source": "Pred量化策略研究_工作汇总/.gitignore",
+      "bytes": 108,
+      "sha256": "a1bde68e95af00c69002eda89e3650ff1396c18f9580c612a161e795b50c997e"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/README.md",
+      "source": "Pred量化策略研究_工作汇总/README.md",
+      "bytes": 4288,
+      "sha256": "4076e4169dd5647ddf41a823e5786d38ec77b98cbb692d2800ca6c4820806466"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/config.json",
+      "source": "Pred量化策略研究_工作汇总/config.json",
+      "bytes": 274,
+      "sha256": "58ec751e5ee267923f098c81dcb04e3a636628a3174e6f74159cfbf4d50b15e9"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/data/.gitkeep",
+      "source": "Pred量化策略研究_工作汇总/data/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/data/README.md",
+      "source": "Pred量化策略研究_工作汇总/data/README.md",
+      "bytes": 548,
+      "sha256": "6dceefb23feedf8dc420301ce21911c5b3f2562364ddad0bc8feecfbee29bc5e"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/requirements.txt",
+      "source": "Pred量化策略研究_工作汇总/requirements.txt",
+      "bytes": 63,
+      "sha256": "2817d070e62120bdf6535501f69cd2b3bd9d1e0874bdbc3758ce9a81164416bc"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/.gitkeep",
+      "source": "Pred量化策略研究_工作汇总/result/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/README.md",
+      "source": "Pred量化策略研究_工作汇总/result/README.md",
+      "bytes": 673,
+      "sha256": "1bacd81165d83e0c9e6618b1e88f78343775ad95cc304738aa27a38fe32cf8e0"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/历史说明/README_PlanB胜率与Tag周期诊断.md",
+      "source": "Pred量化策略研究_工作汇总/result/历史说明/README_PlanB胜率与Tag周期诊断.md",
+      "bytes": 3982,
+      "sha256": "1a5fb28691e4e3edfc4116ccf3f4739795a79172c31de5d1ddde10e440989ac5"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/历史说明/README_总体Score时序漂移_加减修正.md",
+      "source": "Pred量化策略研究_工作汇总/result/历史说明/README_总体Score时序漂移_加减修正.md",
+      "bytes": 15372,
+      "sha256": "66f4ee6e2aeddf3ddc7fadb1c0b855eae8422389869e550d0e711951cbcedb23"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/参数/分时Score时序漂移_选定参数.json",
+      "source": "Pred量化策略研究_工作汇总/result/参数/分时Score时序漂移_选定参数.json",
+      "bytes": 1868,
+      "sha256": "a9a5db3f44dd745b022d5121c5fea737c7f2025ca04e4e7e8e87a1066725b572"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/README.md",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/README.md",
+      "bytes": 627,
+      "sha256": "c88f92a09014b21075e4fbc11dfbb827d2357aad27daa03f483e7e8c485deca9"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时Score时序漂移_14点30以前_月度分位数对比.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时Score时序漂移_14点30以前_月度分位数对比.png",
+      "bytes": 527223,
+      "sha256": "3a4c2781c07cf2dc6dad68f172aa0e6195547e2a25e09f13f5133bf643ffac97"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时Score时序漂移_14点30及以后_月度分位数对比.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时Score时序漂移_14点30及以后_月度分位数对比.png",
+      "bytes": 547487,
+      "sha256": "f73e2e145fba1173f5ef31b814434cd54a2cec53c54d3fb792fb1cca30402690"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时漂移修正后pred_10等分累计收益率.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时漂移修正后pred_10等分累计收益率.png",
+      "bytes": 475508,
+      "sha256": "5f9b1e81edc83b08a915c9c79b7861848bc7d6b9b65decd7831739db4360ac44"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时漂移修正后pred_14点30以前_10等分累计收益率.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时漂移修正后pred_14点30以前_10等分累计收益率.png",
+      "bytes": 526581,
+      "sha256": "55d53c07590717f65caaa176ab1f1e25c5cc15b32e621a743cab1ae819cc42c7"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时漂移修正后pred_14点30以前_20等分收益与命中率.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时漂移修正后pred_14点30以前_20等分收益与命中率.png",
+      "bytes": 263403,
+      "sha256": "26d0a057b611b95b5ec529526cae51eaa90bbeb3de7b12671609a2ce8bc4a0ac"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时漂移修正后pred_14点30及以后_10等分累计收益率.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时漂移修正后pred_14点30及以后_10等分累计收益率.png",
+      "bytes": 491770,
+      "sha256": "87a0ccf117221ed7212465ae85960f30de136601fcc3c1bda75809ba1c7da9fb"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时漂移修正后pred_14点30及以后_20等分收益与命中率.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时漂移修正后pred_14点30及以后_20等分收益与命中率.png",
+      "bytes": 238656,
+      "sha256": "763811631798c5ef25b19093f96896306cb19123c2c897278cc6de4ed3438e8d"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时漂移修正后pred_20等分分组收益率.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时漂移修正后pred_20等分分组收益率.png",
+      "bytes": 270218,
+      "sha256": "3321482e64a2ef681a3e761fe329b2cd9bb82a82e4855963bed541a7e5cef515"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/分时漂移修正后pred_总体10等分胜率盈亏比与累计收益.png",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/分时漂移修正后pred_总体10等分胜率盈亏比与累计收益.png",
+      "bytes": 470066,
+      "sha256": "d8dc6b9f190b9e349d532216f859a46c8e3f75a55004ab21a43d37a20d651a8a"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/可视化/核心指标表.md",
+      "source": "Pred量化策略研究_工作汇总/result/可视化/核心指标表.md",
+      "bytes": 901,
+      "sha256": "c209db39cf24db8ea28add6dcc61a30ba08e95e04c27bc0312bf92fee67b88be"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/报告/14点30分段_Pred修正方案分析.docx",
+      "source": "Pred量化策略研究_工作汇总/result/报告/14点30分段_Pred修正方案分析.docx",
+      "bytes": 43074,
+      "sha256": "50da0b902483700af88d295ef2a0b4f17e3aaafbaea2993d85bb139c153783eb"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/报告/README_预测值与Tag时间漂移分析.md",
+      "source": "Pred量化策略研究_工作汇总/result/报告/README_预测值与Tag时间漂移分析.md",
+      "bytes": 9234,
+      "sha256": "5127e453041d6387d77da396f757b6271b397f1adb98a8edf515ce7e3e20bca0"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/报告/项目交接_关键信息与文件路径.md",
+      "source": "Pred量化策略研究_工作汇总/result/报告/项目交接_关键信息与文件路径.md",
+      "bytes": 17078,
+      "sha256": "ad4e00d8963ff48c1275770b518c5bbe16827c54cb328fe277276400afc40339"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/result/报告/预测值与Tag时间漂移分析.pdf",
+      "source": "Pred量化策略研究_工作汇总/result/报告/预测值与Tag时间漂移分析.pdf",
+      "bytes": 193010,
+      "sha256": "40ede739e0405dc6f14c686e716a7b8f7bf4ebfd9241aa0388698e5bb0c8c3f9"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/scripts/.gitkeep",
+      "source": "Pred量化策略研究_工作汇总/scripts/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/scripts/README.md",
+      "source": "Pred量化策略研究_工作汇总/scripts/README.md",
+      "bytes": 908,
+      "sha256": "43439f156d2a7e3c64b8be5ae95d09d97c1cf9162abd4260788ce942d1c28893"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/scripts/修正后Pred分组收益.py",
+      "source": "Pred量化策略研究_工作汇总/scripts/修正后Pred分组收益.py",
+      "bytes": 284,
+      "sha256": "30ba8397670d873bd70f99e1f0e50e6e228eff0f5043c13656ac5c28fb4ab905"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/scripts/导出分时漂移修正后Pred.py",
+      "source": "Pred量化策略研究_工作汇总/scripts/导出分时漂移修正后Pred.py",
+      "bytes": 290,
+      "sha256": "edc94568125cbd994fa41fd1b1f5d5a070138e4a8f844dec119932d72be076db"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/scripts/总体Score时序漂移.py",
+      "source": "Pred量化策略研究_工作汇总/scripts/总体Score时序漂移.py",
+      "bytes": 282,
+      "sha256": "da1b8937577ee108fb3e0fb419888315d7f2cae5023beda4977f97000693501a"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/tests/.gitkeep",
+      "source": "Pred量化策略研究_工作汇总/tests/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/tests/test_metrics.py",
+      "source": "Pred量化策略研究_工作汇总/tests/test_metrics.py",
+      "bytes": 1286,
+      "sha256": "d2ec286b6f20f91d5abc49701e63924438b8aec118279c5f4377a76af2f5363d"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/tests/test_segmented_drift.py",
+      "source": "Pred量化策略研究_工作汇总/tests/test_segmented_drift.py",
+      "bytes": 5517,
+      "sha256": "95d468fa1ba6cacec07b7e8ad2296fabb825971d3d7e8b7aff5860d704e4d318"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/utils/.gitkeep",
+      "source": "Pred量化策略研究_工作汇总/utils/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/utils/__init__.py",
+      "source": "Pred量化策略研究_工作汇总/utils/__init__.py",
+      "bytes": 54,
+      "sha256": "9d0f1952c53c621f0140e6b60ecedbb355380687f90bfa8c2580ccf065a7f6df"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/utils/adjusted_pred_analysis.py",
+      "source": "Pred量化策略研究_工作汇总/utils/adjusted_pred_analysis.py",
+      "bytes": 24820,
+      "sha256": "64fc5b68b3bdc67bfe6acd82a0300adb2b09fc95fd98e690a4606e226dd8ad76"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/utils/metrics.py",
+      "source": "Pred量化策略研究_工作汇总/utils/metrics.py",
+      "bytes": 1828,
+      "sha256": "810ea70018bd142cf8ceb32da5169f44f81b5af5d599197c9a25799c619a830e"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/utils/pipelines.py",
+      "source": "Pred量化策略研究_工作汇总/utils/pipelines.py",
+      "bytes": 833,
+      "sha256": "f6b978afa5dec8e6344dd28c2d6a19bcab038f8fc0e8219e67edf61c7b2e2cb0"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/utils/score_drift_workflow.py",
+      "source": "Pred量化策略研究_工作汇总/utils/score_drift_workflow.py",
+      "bytes": 20591,
+      "sha256": "935fe4d48b04cb93f9dc9c6fecb788585a236414f60e9e00acfd0077a325be6a"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/utils/segmented_drift.py",
+      "source": "Pred量化策略研究_工作汇总/utils/segmented_drift.py",
+      "bytes": 5950,
+      "sha256": "237c66984cff772b4d75c92f66330a78eff5dd003a5c4ab751d1bade3822fea8"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/utils/zero_centered_export.py",
+      "source": "Pred量化策略研究_工作汇总/utils/zero_centered_export.py",
+      "bytes": 3182,
+      "sha256": "ad7dc208f2a785e5fa98b4624ffddeb8190f0825e961a014eb04c5d441208ee6"
+    },
+    {
+      "path": "archive/chinese_summary_snapshot/可视化/02_分组与累计收益/全体样本_20等分_14点30以前_静态图样例.png",
+      "source": "Pred量化策略研究_工作汇总/可视化/02_分组与累计收益/全体样本_20等分_14点30以前_静态图样例.png",
+      "bytes": 690090,
+      "sha256": "c0bfb591f2c04608b965226f760411c10eade74f4920f2d65764147752b2b848"
+    }
+  ],
+  "deduplicated_assets": [
+    {
+      "snapshot_path": "archive/chinese_summary_snapshot/data/pred_eval.parquet",
+      "identical_canonical_path": "data/pred_eval.parquet",
+      "sha256": "be9297c4e60ac6eefe73bcbfe2cf84f5d3ba4cc3912bda16e67ae7dba61c0305",
+      "reason": "identical data retained once in canonical path"
+    },
+    {
+      "snapshot_path": "archive/chinese_summary_snapshot/result/数据/pred_eval_分时漂移修正后.parquet",
+      "identical_canonical_path": "result/data/pred_eval_segmented_drift_adjusted.parquet",
+      "sha256": "c53e0bd76e68f5aca994077d072e17aa443b8d65d6b95a42be108b078c5eda5a",
+      "reason": "identical data retained once in canonical path"
+    }
+  ],
+  "excluded": [
+    ".git directory (history retained separately in git bundle)",
+    ".venv",
+    "__pycache__",
+    "node_modules",
+    "*.inspect.ndjson",
+    "*a11y*.json",
+    "temporary rendering and preview screenshots"
+  ],
+  "git_history": {
+    "path": "archive/chinese_summary_history.bundle",
+    "bytes": 12974408,
+    "sha256": "ee7154ef0b60c8702a084d562f641470c36141aa103fbd13a9057cd3198b1664",
+    "source_commit": "ae1cc94e71f0b457b30fdde0447daa3ceeb53c42",
+    "verification": "git bundle verify: complete history, two refs"
+  }
+}

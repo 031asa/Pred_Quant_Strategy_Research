@@ -1,0 +1,15 @@
+{
+  "source_path": "C:/Users/Hello/Downloads/pred_eval.parquet",
+  "pred_column": "pred",
+  "return_column": "Tag",
+  "date_column": "Date",
+  "contract_column": "Contract",
+  "score_offset": 0.5,
+  "score_min": 0.0,
+  "score_max": 1.0,
+  "direction_threshold": 0.5,
+  "dense_half_width": 0.2,
+  "dense_step": 0.02,
+  "quantile_bins": 10,
+  "report_min_interval_share": 0.005
+}

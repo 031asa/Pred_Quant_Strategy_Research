@@ -1,0 +1,23 @@
+{
+  "source_path": "C:\\Users\\Hello\\Downloads\\pred_eval.parquet",
+  "cold_start_minimum_trading_days": 20,
+  "cold_start_effective_trading_days": 21,
+  "cold_start_calendar_month": "2024-01",
+  "total_trading_days": 600,
+  "test_fraction": 0.1,
+  "test_trading_days": 60,
+  "test_start_date": "2026-04-01",
+  "test_end_date": "2026-06-30",
+  "selected_half_life_trading_days": 1,
+  "selected_alpha": 0.5,
+  "selected_development_balance_offset": -6.721714603599716e-05,
+  "selected_development_daily_offset_abs_change_p95": 0.026906997430955103,
+  "selected_development_daily_offset_abs_change_max": 0.04795176883520452,
+  "short_rate_target": 0.5,
+  "short_rate_tolerance": 0.01,
+  "selection_note": "在满足总体做空占比49%至51%的候选中，优先选择月度绝对面积最小者，斜率作为次级排序。",
+  "causal_rule": "Date t uses only daily medians from dates strictly earlier than t.",
+  "tag_used_for_selection": false,
+  "baseline_definition": "Expanding median of historical daily score medians.",
+  "transform": "adjusted_score = score - ((recent_center + balance_offset) - slow_baseline)"
+}

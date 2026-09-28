@@ -1,0 +1,10 @@
+
+步骤一完成：分时 Score 漂移选参
+输入 Parquet：/tmp/pred-handover-reproduction-p0sm5b83/data/pred_eval.parquet
+源样本量：1,728,000
+有效样本量：1,667,520
+14:30以前：半衰期=1日，开发段做空占比=50.0000%
+14:30及以后：半衰期=1日，开发段做空占比=50.0000%
+参数 JSON：/tmp/pred-handover-reproduction-p0sm5b83/result/parameters/segmented_score_drift_selected_parameters.json
+漂移图：/tmp/pred-handover-reproduction-p0sm5b83/result/visualizations/drift_comparison/before_1430_monthly_score_drift.png
+漂移图：/tmp/pred-handover-reproduction-p0sm5b83/result/visualizations/drift_comparison/after_1430_monthly_score_drift.png

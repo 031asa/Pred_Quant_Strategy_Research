@@ -5,6 +5,12 @@ __pycache__/
 .idea/
 .matplotlib/
 data/*.parquet
+!data/pred_eval.parquet
 *.inspect.ndjson
 tmp/
 temp/
+.env
+.streamlit/secrets.toml
+*.tmp.parquet
+/pred_drift_matplotlib/
+/pred_returns_matplotlib/

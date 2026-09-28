@@ -1,0 +1,248 @@
+{
+  "status": "passed",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "packages": {
+    "polars": "1.36.1",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4",
+    "pandas": "3.0.6",
+    "streamlit": "1.64.0",
+    "plotly": "6.9.0",
+    "pyarrow": "24.0.0"
+  },
+  "stages": [
+    {
+      "script": "analyze_segmented_score_drift.py",
+      "exit_code": 0,
+      "seconds": 5.94
+    },
+    {
+      "script": "export_zero_centered_pred.py",
+      "exit_code": 0,
+      "seconds": 0.973
+    },
+    {
+      "script": "analyze_adjusted_pred_returns.py",
+      "exit_code": 0,
+      "seconds": 19.717
+    }
+  ],
+  "raw": {
+    "sha256": "be9297c4e60ac6eefe73bcbfe2cf84f5d3ba4cc3912bda16e67ae7dba61c0305",
+    "bytes": 23638240,
+    "rows": 1728000,
+    "trading_days": 600,
+    "contracts": 12,
+    "date_min": "2024-01-03",
+    "date_max": "2026-06-30",
+    "schema": {
+      "Date": "Date",
+      "Contract": "String",
+      "Datetime": "Datetime(time_unit='ms', time_zone='Asia/Shanghai')",
+      "pred": "Float64",
+      "Tag": "Float32"
+    },
+    "null_counts": {
+      "Date": 0,
+      "Contract": 0,
+      "Datetime": 0,
+      "pred": 0,
+      "Tag": 0
+    }
+  },
+  "adjusted": {
+    "rows": 1667520,
+    "max_absolute_pred_difference": 0.0,
+    "direction_mismatches": 0,
+    "other_fields_exact": true,
+    "delivered_sha256": "c53e0bd76e68f5aca994077d072e17aa443b8d65d6b95a42be108b078c5eda5a",
+    "regenerated_sha256": "c53e0bd76e68f5aca994077d072e17aa443b8d65d6b95a42be108b078c5eda5a"
+  },
+  "parameters_exact": true,
+  "figures": [
+    {
+      "path": "result/visualizations/after_adjustment/after_1430/after_1430_decile_zero_threshold_cumulative_return.png",
+      "size": [
+        2342,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/after_1430/after_1430_ventile_zero_threshold_metrics.png",
+      "size": [
+        2681,
+        3610
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/after_1430/paired_decile_cumulative_return.png",
+      "size": [
+        2340,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/after_1430/pred_distribution.png",
+      "size": [
+        2681,
+        1412
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/before_1430/before_1430_decile_zero_threshold_cumulative_return.png",
+      "size": [
+        2342,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/before_1430/before_1430_ventile_zero_threshold_metrics.png",
+      "size": [
+        2681,
+        3610
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/before_1430/paired_decile_cumulative_return.png",
+      "size": [
+        2339,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/before_1430/pred_distribution.png",
+      "size": [
+        2678,
+        1412
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/overall/overall_decile_zero_threshold_cumulative_return.png",
+      "size": [
+        2342,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/overall/overall_ventile_zero_threshold_metrics.png",
+      "size": [
+        2681,
+        3610
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/overall/paired_decile_cumulative_return.png",
+      "size": [
+        2339,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/after_adjustment/overall/pred_distribution.png",
+      "size": [
+        2681,
+        1412
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/after_1430/after_1430_decile_zero_threshold_cumulative_return.png",
+      "size": [
+        2342,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/after_1430/after_1430_ventile_zero_threshold_metrics.png",
+      "size": [
+        2681,
+        3610
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/after_1430/paired_decile_cumulative_return.png",
+      "size": [
+        2340,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/after_1430/pred_distribution.png",
+      "size": [
+        2681,
+        1412
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/before_1430/before_1430_decile_zero_threshold_cumulative_return.png",
+      "size": [
+        2342,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/before_1430/before_1430_ventile_zero_threshold_metrics.png",
+      "size": [
+        2681,
+        3610
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/before_1430/paired_decile_cumulative_return.png",
+      "size": [
+        2339,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/before_1430/pred_distribution.png",
+      "size": [
+        2681,
+        1412
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/overall/overall_decile_zero_threshold_cumulative_return.png",
+      "size": [
+        2342,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/overall/overall_ventile_zero_threshold_metrics.png",
+      "size": [
+        2681,
+        3610
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/overall/paired_decile_cumulative_return.png",
+      "size": [
+        2339,
+        1660
+      ]
+    },
+    {
+      "path": "result/visualizations/before_adjustment/overall/pred_distribution.png",
+      "size": [
+        2681,
+        1412
+      ]
+    },
+    {
+      "path": "result/visualizations/drift_comparison/after_1430_monthly_score_drift.png",
+      "size": [
+        2497,
+        2338
+      ]
+    },
+    {
+      "path": "result/visualizations/drift_comparison/before_1430_monthly_score_drift.png",
+      "size": [
+        2497,
+        2338
+      ]
+    }
+  ],
+  "seconds": 27.022
+}

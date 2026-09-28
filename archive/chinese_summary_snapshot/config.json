@@ -1,0 +1,12 @@
+{
+  "source_path": "data/pred_eval.parquet",
+  "pred_column": "pred",
+  "return_column": "Tag",
+  "datetime_column": "Datetime",
+  "contract_column": "Contract",
+  "score_offset": 0.5,
+  "score_min": 0.0,
+  "score_max": 1.0,
+  "time_cutoff": "14:30",
+  "rolling_days": 20
+}

@@ -1,0 +1,8 @@
+
+步骤二完成：零中心最终 Pred 导出
+输入 Parquet：/tmp/pred-handover-reproduction-p0sm5b83/data/pred_eval.parquet
+输入参数：/tmp/pred-handover-reproduction-p0sm5b83/result/parameters/segmented_score_drift_selected_parameters.json
+输出 Parquet：/tmp/pred-handover-reproduction-p0sm5b83/result/data/pred_eval_segmented_drift_adjusted.parquet
+有效样本量：1,667,520
+pred 范围：[-0.294019856233, 0.277973803268]
+做空占比（pred < 0）：49.943508923431%

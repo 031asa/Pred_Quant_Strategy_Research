@@ -1,0 +1,5 @@
+polars==1.36.1
+numpy==2.0.2
+matplotlib==3.9.4
+pandas
+ipykernel
