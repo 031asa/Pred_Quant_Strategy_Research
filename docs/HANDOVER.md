@@ -5,6 +5,7 @@
 ## 1. 仓库与资料层次
 
 - 交接目标仓库：`http://172.16.20.14:3000/hjz/Pred_Quant_Strategy_Research`，已核对为私有仓库。
+- GitHub完整归档：`https://github.com/031asa/Pred_Quant_Strategy_Research`，用户于2026-09-28另行授权将原始数据和完整研究材料同步至此私有仓库；读取说明见 `docs/GITHUB_ARCHIVE.md`。
 - 补充归档前的远程基准提交：`0425b8e45a4e14973e2ba37d893a26b0767a0b72`。
 - 当前主线是英文目录版 `Pred_Quant_Strategy_Research`，包括批量研究脚本、Streamlit A/B 流水线、Plotly 图表和跨平台中文字体。
 - `archive/legacy_research/`：原始研究输出目录中筛选保留的历史源码、参数、表格、图像和交付包；保留原始文件名。

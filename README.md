@@ -2,9 +2,9 @@
 
 ## 离职交接与完整备份（2026-09-28）
 
-从 [交接说明](docs/HANDOVER.md) 开始阅读；[仓库差异审计](docs/REPOSITORY_AUDIT.md) 记录了本地版本与 Gitea 的对照。[来源清单](docs/source_manifest.json) 可追溯新增材料，[文件校验表](docs/checksums.sha256) 用于下载后核验。
+从 [交接说明](docs/HANDOVER.md) 开始阅读；[GitHub完整归档说明](docs/GITHUB_ARCHIVE.md) 说明离开内网后的读取方式。[仓库差异审计](docs/REPOSITORY_AUDIT.md) 记录本地版本与 Gitea 的对照，[来源清单](docs/source_manifest.json) 可追溯新增材料，[文件校验表](docs/checksums.sha256) 用于下载后核验。
 
-原始 `data/pred_eval.parquet` 现已随本私有 Gitea 仓库交付。早期99份研究材料位于 `archive/legacy_research/`，较早中文项目快照位于 `archive/chinese_summary_snapshot/`，其 Git 历史另存于 `archive/chinese_summary_history.bundle`。根目录源码仍是当前可运行版本，历史结果的阈值、胜率分母和单复利定义可能不同，详见交接说明。
+原始 `data/pred_eval.parquet` 已纳入完整交接版本，保存于私有 Gitea，并经用户授权同步至私有 GitHub 仓库 `031asa/Pred_Quant_Strategy_Research`。早期99份研究材料位于 `archive/legacy_research/`，较早中文项目快照位于 `archive/chinese_summary_snapshot/`，其 Git 历史另存于 `archive/chinese_summary_history.bundle`。根目录源码仍是当前可运行版本，历史结果的阈值、胜率分母和单复利定义可能不同，详见交接说明。
 
 推荐在 WSL 2 / Linux 的项目目录中使用独立 Conda 环境：
 
@@ -19,7 +19,7 @@ python scripts/analyze_adjusted_pred_returns.py
 python -m streamlit run streamlit_app.py
 ```
 
-`environment.yml` 是新增的可移植环境说明；旧 `requirements.txt` 保留兼容。实际验收环境与复现记录见 `result/verification/`。执行三步脚本会重写对应生成结果；若需保留交付原件，可执行 `python scripts/reproduce_handover.py`，它在临时目录重新生成并进行逐值核对。归档含研究数据，仅授权上传到当前私有 Gitea；若使用其他远程，需另行确认范围。
+`environment.yml` 是新增的可移植环境说明；旧 `requirements.txt` 保留兼容。实际验收环境与复现记录见 `result/verification/`。执行三步脚本会重写对应生成结果；若需保留交付原件，可执行 `python scripts/reproduce_handover.py`，它在临时目录重新生成并进行逐值核对。归档含原始数据与研究结果，用户已授权保存至上述私有 Gitea 和私有 GitHub；此同步不改变仓库可见性。
 
 
 本项目以`data/pred_eval.parquet`为原始输入，汇总此前的阈值、分组收益、14:30分时、Tag周期和Score漂移研究，并交付当前采用的“14:30前后独立漂移修正 + 零中心Pred”流程。

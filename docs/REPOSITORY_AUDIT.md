@@ -29,4 +29,6 @@
 
 未在此次项目材料中找到模型训练代码、模型权重、特征表、原始分钟行情或Tag生成源码；本次补齐的是模型结果集后处理研究的交接。Tag约30分钟的预测周期仍为分析推断。
 
-仓库页面核验为私有，Mirror Settings显示无push mirror。本机另有2026-09-23的Gitea/GitHub同步记录，但此次只向上述Gitea仓库同步，未向GitHub上传。
+首次补齐时，仓库页面核验为私有，Mirror Settings显示无push mirror；该次仅上传Gitea，形成完整交接提交 `bcd2725ccb4285d98c9ff287cfb8efc1e36a8afb`。
+
+2026-09-28用户随后明确要求将完整项目同步到 GitHub `031asa/Pred_Quant_Strategy_Research`。核验该仓库为private，main仍为最初提交 `0425b8e45a4e14973e2ba37d893a26b0767a0b72`，是完整交接版本的祖先，可快进同步。此次保留原始Parquet、所有已归档研究材料及提交历史，仅补充GitHub存放说明与对应哈希清单，不改变研究算法和结果。此前2026-09-23的同步记录不代表当时已经包含本次补齐内容。
